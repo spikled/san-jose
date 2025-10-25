@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  background: white;
+  color: #ff5e62;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #ffe0e0;
+}
