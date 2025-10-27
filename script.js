@@ -9,6 +9,11 @@ let events = [
 ];
 let editingId = null;
 let submissions = [];
+let isAdminLoggedIn = false;
+
+// Admin credentials (You should change these!)
+const ADMIN_USERNAME = 'admin';
+const ADMIN_PASSWORD = 'admin123';
 
 function formatDate(dateString) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
